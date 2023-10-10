@@ -1,0 +1,20 @@
+myset = {1,2,3,4}
+myset.add(5)
+myset.add('c')
+myset.add((6,7))
+
+
+myset.update([8,9])
+myset.update({10,12})
+myset.update((13,14))
+myset.update('d','e')
+
+
+
+myset.discard(8)
+myset.discard((6,7))
+
+
+
+myset.remove(1)
+#myset.remove(8)
