@@ -1,0 +1,11 @@
+def longest_word(str1):
+    length = 0
+    mylist = str1.split()
+    for word in mylist:
+        if len(word) > length:
+           length = len(word)
+    return length
+
+str1 = input()
+print('Length of the longest word is:',longest_word(str1))
+           
