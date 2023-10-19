@@ -1,0 +1,13 @@
+def my_generator(l1,l2):
+    for i1 in l1:
+        yield i1
+    for i2 in l2:
+        yield i2
+
+l1 = [12,13,14]
+l2 = [15,16,17]
+
+concate = my_generator(l1,l2)
+
+for i in concate:
+    print(i,end = " ")
