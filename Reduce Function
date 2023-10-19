@@ -1,0 +1,12 @@
+from functools import reduce
+
+str1 = input()
+
+mylist = str1.split()
+
+def longest_word(max_length,word):
+    return max(max_length,len(word))
+
+result = reduce(longest_word,mylist,0)
+
+print(result)
